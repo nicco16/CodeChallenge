@@ -1,4 +1,6 @@
-function enviarFormulario() {
+
+
+  function enviarFormulario() {
     const url = 'https://jsonplaceholder.typicode.com/users';
     const nombre = document.getElementById('nombre').value;
     const apellido = document.getElementById('apellido').value;
@@ -24,4 +26,3 @@ function enviarFormulario() {
       })
       
     };
-  
